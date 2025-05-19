@@ -2,7 +2,7 @@
 
 This project is a **CNC robot machine printer** built using embedded systems and/or computer control logic. The system interprets G-code instructions to move a pen or a toolhead across X, Y, and Z axes to create precise drawings or engravings.
 
-## 🔧 Features
+##  Features
 
 - Interprets basic G-code commands (G00, G01, etc.)
 - Supports X, Y (and optional Z) axis movement
@@ -11,7 +11,7 @@ This project is a **CNC robot machine printer** built using embedded systems and
 - Serial communication for command input
 - Pen up/down mechanism for printing/drawing
 
-## 📦 Components Used
+##  Components Used
 
 - Arduino UNO
 - Stepper motors with drivers (e.g., A4988)
@@ -20,7 +20,7 @@ This project is a **CNC robot machine printer** built using embedded systems and
 - CNC Frame (custom or recycled parts)
 - USB interface to PC (for G-code sending)
 
-## 🧠 How It Works
+##  How It Works
 
 1. The machine receives G-code instructions via Serial.
 2. Arduino parses the G-code and calculates the step count.
